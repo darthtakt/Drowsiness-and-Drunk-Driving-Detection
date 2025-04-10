@@ -48,5 +48,4 @@ ENV ALERT_SOUND_PATH=/app/alert_sound.wav
 ENV PORT=10000
 
 # Run the application
-CMD waitress-serve --host=0.0.
-
+CMD ["waitress-serve", "--host=0.0.0.0", "--port=$PORT", "app:app"]
