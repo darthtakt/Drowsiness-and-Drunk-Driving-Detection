@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: drowsiness-detection
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: waitress-serve --host=0.0.0.0 --port=$PORT app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.11
