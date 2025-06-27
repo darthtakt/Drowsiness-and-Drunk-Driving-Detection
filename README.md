@@ -273,10 +273,6 @@ bunzip2 shape_predictor_68_face_landmarks.dat.bz2
 - Check SQLite installation
 - Verify database file isn't corrupted
 
-## 📞 Support
-
-For support, please open an issue on GitHub or contact [your-email@example.com](mailto:your-email@example.com).
-
 ## 🙏 Acknowledgments
 
 - [dlib](http://dlib.net/) for facial landmark detection
@@ -294,6 +290,4 @@ For support, please open an issue on GitHub or contact [your-email@example.com](
 | Detection Accuracy | 95%+ |
 | False Positive Rate | <5% |
 
----
 
-**⭐ If you find this project helpful, please consider giving it a star!**
